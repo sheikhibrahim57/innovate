@@ -1,0 +1,774 @@
+@media (min-width: 1920px){
+    #banner::after {
+        height: 900px;
+    }
+    #banner {
+        padding: 180px 0 730px;
+    }
+    #service {
+        padding: 0 0 50px;
+    }
+}
+
+@media (min-width: 1501px) and (max-width: 1919px){
+    #banner::after {
+        height: 800px;
+    }
+}
+
+@media (min-width: 1400px) and (max-width: 1500px){
+    #banner::after {
+        height: 615px;
+    }
+}
+
+@media (min-width: 1311px) and (max-width: 1399.98px) {}
+
+@media (min-width: 1200px) and (max-width: 1310.98px) {}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #banner {
+        padding: 180px 0 525px;
+    }
+    #banner::after {
+        height: 495px;
+    }
+    #banner .client_slider {
+        bottom: -480px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar {
+        padding: 10px 0;
+        background: rgba(105, 85, 234, 0.7);
+    }
+    .navbar #navbarSupportedContent{
+        text-align: center;
+    }
+    .navbar #navbarSupportedContent .navbar-nav .nav-item .nav-link {
+        font-size: 14px;
+    }
+    .navbar .navbar-brand img{
+        max-width: 80px;
+    }
+
+    #banner {
+        padding: 130px 0 460px;
+    }
+    #banner .banner_text ul li {
+        font-size: 14px;
+    }
+    #banner .banner_text h1 {
+        font-size: 45px;
+        margin-bottom: 30px;
+    }
+    #banner .banner_text p {
+        font-size: 14px;
+    }
+    #banner .banner_text .input_area input {
+        height: 50px;
+    }
+    #banner .banner_text .input_area a {
+        top: 1px;
+        right: 1px;
+        width: 175px;
+        height: 48px;
+        font-size: 16px;
+        line-height: 48px;
+    }
+    #banner .banner_text .input_area {
+        width: 500px;
+    }
+    #banner::after {
+        height: 405px;
+    }
+    #banner .client_slider {
+        bottom: -400px;
+    }
+
+    .com_head h3 {
+        font-size: 34px;
+    }
+    .com_pera {
+        font-size: 14px;
+    }
+
+    #service .service_inner {
+        margin-top: 30px;
+    }
+    #service .service_inner .service_right{
+        margin-top: 40px;
+    }
+
+    #traffic .traffic_right {
+        margin-top: 40px;
+    }
+    #help .help_inner .nav-tabs .nav-item .nav-link {
+        padding: 20px 10px;
+    }
+    #help .help_inner .nav-tabs .nav-item .nav-link h6 {
+        font-size: 12px;
+    }
+    #help .help_inner .nav-tabs .nav-item .nav-link img {
+        max-width: 30px;
+    }
+    #help .help_inner .nav-tabs .nav-item .active::after {
+        bottom: -55px;
+        border-top: 28px solid var(--or);
+        border-bottom: 28px solid transparent;
+        border-left: 28px solid transparent;
+        border-right: 28px solid transparent;
+    }
+
+    #works .works_inner .work_item .text p {
+        font-size: 15px;
+    }
+
+    .com_sec_head h6 {
+        font-size: 16px;
+    }
+
+    #pricing .pricing_inner .membership .membership_head::before {
+        right: -2px;
+        height: 590px;
+    }
+    #pricing .pricing_inner .membership_items .membership_btns {
+        z-index: 11;
+    }
+
+    #analytics .analytics_cont {
+        padding: 60px 0;
+    }
+    #analytics {
+        padding: 100px 0 15px;
+    }
+
+    #footer .footer_right{
+        margin-top: 40px;
+    }
+    #footer {
+        padding: 80px 0 10px;
+    }
+    #footer .footer_bottom {
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .navbar {
+        padding: 10px 0;
+        background: rgba(105, 85, 234, 0.7);
+    }
+    .navbar #navbarSupportedContent{
+        text-align: center;
+    }
+    .navbar #navbarSupportedContent .navbar-nav .nav-item .nav-link {
+        font-size: 13px;
+    }
+    .navbar .navbar-brand img{
+        max-width: 80px;
+    }
+
+    #banner .banner_text ul li {
+        padding: 5px 15px;
+        font-size: 10px;
+    }
+    #banner {
+        padding: 125px 0 320px;
+        margin-bottom: 10px;
+    }
+    #banner .banner_text h1 {
+        font-size: 35px;
+    }
+    #banner .rocket {
+        top: 10%;
+        transform: none;
+        z-index: 0;
+        max-width: 100px;
+    }
+    #banner .banner_text p {
+        font-size: 13px;
+    }
+    #banner .banner_text .input_area {
+        width: 400px;
+    }
+    #banner .banner_text .input_area a {
+        width: 140px;
+        height: 45px;
+        line-height: 45px;
+        font-size: 12px;
+    }
+    #banner .banner_text .input_area input {
+        height: 45px;
+        padding-left: 20px;
+        font-size: 12px;
+    }
+    #banner::after {
+        height: 315px;
+    }
+    #banner .client_slider {
+        bottom: -300px;
+    }
+
+    .com_head h6 {
+        font-size: 14px;
+    }
+    .com_head h3 {
+        font-size: 25px;
+    }
+    .com_pera {
+        font-size: 12px;
+    }
+    .com_head p {
+        font-size: 12px;
+        margin-top: 20px;
+    }
+
+    #service {
+        padding: 30px 0 30px;
+    }
+    #service .service_inner {
+        margin-top: 20px;
+        text-align: center;
+    }
+    #service .service_inner .service_left ul li img {
+        margin-top: 20px;
+    }
+    #service .service_inner .service_right{
+        margin-top: 40px;
+    }
+    #service .service_inner .service_right ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    #service .service_inner .service_right ul li {
+        width: 48%;
+        padding: 90px 20px 20px;
+    }
+    #service .service_inner .service_right ul li img {
+        top: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        max-width: 55px;
+    }
+    #service .service_inner .service_right ul li h5 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    #service .service_inner .service_right ul li p {
+        font-size: 12px;
+    }
+
+    #traffic {
+        padding: 50px 0;
+    }
+    #traffic .traffic_right {
+        margin-top: 40px;
+    }
+
+    #help {
+        padding: 50px 0;
+    }
+    #help .help_inner .nav-tabs .nav-item .nav-link img {
+        max-width: 20px;
+    }
+    #help .help_inner .nav-tabs .nav-item .nav-link h6 {
+        font-size: 10px;
+    }
+    #help .help_inner .nav-tabs .nav-item .nav-link {
+        padding: 15px 5px;
+    }
+    #help .help_inner .nav-tabs .nav-item {
+        margin-bottom: 24px;
+    }
+    #help .help_inner .nav-tabs .nav-item .active::after {
+        bottom: -30px;
+        border-top: 15px solid var(--or);
+        border-bottom: 15px solid transparent;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+    }
+    #help .help_inner #myTabContent .tab-pane .help_bottom_left {
+        text-align: center;
+    }
+    #help .help_inner #myTabContent .tab-pane .help_bottom_right {
+        text-align: center;
+    }
+    #help .help_inner #myTabContent {
+        margin-top: 30px;
+    }
+    #help .help_inner #myTabContent .tab-pane .help_bottom_left img {
+        max-width: 50%;
+    }
+    #help .help_inner #myTabContent .tab-pane .help_bottom_right h4 {
+        font-size: 25px;
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+    #help .help_inner #myTabContent .tab-pane .help_bottom_right .com_btn {
+        margin-top: 20px;
+    }
+
+    .com_btn {
+        font-size: 10px;
+    }
+    .com_sec_head h6 {
+        font-size: 14px;
+    }
+    .com_sec_head h4 {
+        font-size: 30px;
+    }
+    .com_sec_head a {
+        font-size: 10px;
+        padding: 8px 20px;
+        right: 12px;
+    }
+    
+    #works {
+        padding: 50px 0 26px;
+    }
+    #works .works_inner {
+        margin-top: 40px;
+    }
+    #works .works_inner .work_item{
+        margin-bottom: 24px;
+    }
+    #works .works_inner .work_item .text h5 {
+        font-size: 22px;
+    }
+    #works .works_inner .work_item .text {
+        margin-top: 15px;
+    }
+    #works .works_inner .work_item .text p {
+        font-size: 12px;
+        margin-top: 10px;
+    }
+
+    #pricing {
+        padding: 50px 0;
+    }
+    #pricing .pricing_inner {
+        margin-top: 65px;
+    }
+    #pricing .pricing_inner .membership .membership_head{
+        padding: 0 5px !important;
+        margin-bottom: 20px;
+    }
+    #pricing .pricing_inner .membership .membership_head p {
+        font-size: 10px;
+    }
+    #pricing .pricing_inner .membership .membership_head h6 {
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+    #pricing .pricing_inner .membership_items h6 {
+        font-size: 11px;
+    }
+    #pricing .pricing_inner .membership_items p {
+        font-size: 10px;
+    }
+    #pricing .pricing_inner .membership_items {
+        padding: 20px 0;
+    }
+    #pricing .pricing_inner .membership_items .check {
+        font-size: 10px;
+    }
+    #pricing .pricing_inner .membership_items .xmark {
+        font-size: 10px;
+    }
+    #pricing .pricing_inner .membership .membership_head::before {
+        height: 485px;
+        right: -2px;
+    }
+    #pricing .pricing_inner .membership_items a {
+        font-size: 10px;
+    }
+    #pricing .pricing_inner .membership_items .membership_btns {
+        padding: 10px 0;
+        z-index: 9;
+    }
+
+    #analytics {
+        padding: 50px 0;
+    }
+    #analytics .analytics_cont {
+        padding: 50px 10px;
+        border-radius: 10px;
+    }
+    #analytics .analytics_cont h2 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    #analytics .analytics_cont p {
+        font-size: 12px;
+        margin-bottom: 30px;
+    }
+    #analytics .analytics_cont .input_area input {
+        height: 40px;
+        padding-left: 20px;
+        font-size: 10px;
+        border-radius: 5px;
+    }
+    #analytics .analytics_cont .input_area {
+        width: 400px;
+    }
+    #analytics .analytics_cont .input_area a {
+        width: 120px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 10px;
+        border-radius: 0 5px 5px 0;
+    }
+
+    #footer {
+        padding: 30px 0 20px;
+    }
+    #footer .footer_left{
+        text-align: center;
+    }
+    #footer .footer_left a img {
+        max-width: 110px;
+    }
+    #footer .footer_left p {
+        font-size: 12px;
+        line-height: 200%;
+    }
+    #footer .footer_right{
+        margin-top: 50px;
+    }
+    #footer .footer_right .footer_menu{
+        margin-bottom: 24px;
+    }
+    #footer .footer_right .footer_menu ul li a {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+    #footer .footer_right .footer_menu h5 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    #footer .footer_bottom {
+        margin-top: 20px;
+    }
+    #footer .footer_bottom ul {
+        justify-content: space-evenly;
+    }
+    #footer .footer_bottom ul li {
+        margin-left: 0;
+    }
+    #footer .footer_bottom ul li a {
+        font-size: 12px;
+    }
+    #footer .footer_bottom p {
+        font-size: 10px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .navbar {
+        padding: 10px 0;
+        background: rgba(105, 85, 234, 0.7);
+    }
+    .navbar #navbarSupportedContent{
+        text-align: center;
+    }
+    .navbar #navbarSupportedContent .navbar-nav .nav-item .nav-link {
+        font-size: 12px;
+    }
+    .navbar .navbar-brand img{
+        max-width: 80px;
+    }
+
+    #banner .banner_text ul li {
+        padding: 5px 15px;
+        font-size: 10px;
+    }
+    #banner {
+        padding: 125px 0 300px;
+        margin-bottom: 90px;
+    }
+    #banner .banner_text h1 {
+        font-size: 30px;
+    }
+    #banner .rocket {
+        top: 10%;
+        transform: none;
+        z-index: 0;
+        max-width: 100px;
+    }
+    #banner .banner_text p {
+        font-size: 12px;
+    }
+    #banner .banner_text .input_area {
+        width: 300px;
+    }
+    #banner .banner_text .input_area a {
+        width: 100px;
+        height: 45px;
+        line-height: 45px;
+        font-size: 10px;
+    }
+    #banner .banner_text .input_area input {
+        height: 45px;
+        padding-left: 20px;
+        font-size: 10px;
+    }
+    #banner::after {
+        height: 235px;
+    }
+    #banner .client_slider {
+        bottom: -370px;
+    }
+
+    .com_head h6 {
+        font-size: 14px;
+    }
+    .com_head h3 {
+        font-size: 25px;
+    }
+    .com_pera {
+        font-size: 12px;
+    }
+    .com_head p {
+        font-size: 12px;
+        margin-top: 20px;
+    }
+
+    #service {
+        padding: 30px 0 30px;
+    }
+    #service .service_inner {
+        margin-top: 20px;
+        text-align: center;
+    }
+    #service .service_inner .service_left ul li img {
+        margin-top: 20px;
+    }
+    #service .service_inner .service_right{
+        margin-top: 40px;
+    }
+    #service .service_inner .service_right ul li {
+        padding: 90px 20px 20px;
+    }
+    #service .service_inner .service_right ul li img {
+        top: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        max-width: 55px;
+    }
+    #service .service_inner .service_right ul li h5 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    #service .service_inner .service_right ul li p {
+        font-size: 12px;
+    }
+
+    #traffic {
+        padding: 50px 0;
+    }
+    #traffic .traffic_right {
+        margin-top: 40px;
+    }
+
+    #help {
+        padding: 50px 0;
+    }
+    #help .help_inner .nav-tabs .nav-item .nav-link img {
+        max-width: 20px;
+    }
+    #help .help_inner .nav-tabs .nav-item .nav-link h6 {
+        font-size: 10px;
+    }
+    #help .help_inner .nav-tabs .nav-item .nav-link {
+        padding: 15px 5px;
+    }
+    #help .help_inner .nav-tabs .nav-item {
+        margin-bottom: 24px;
+    }
+    #help .help_inner .nav-tabs .nav-item .active::after {
+        bottom: -30px;
+        border-top: 15px solid var(--or);
+        border-bottom: 15px solid transparent;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+    }
+    #help .help_inner #myTabContent .tab-pane .help_bottom_left {
+        text-align: center;
+    }
+    #help .help_inner #myTabContent .tab-pane .help_bottom_right {
+        text-align: center;
+    }
+    #help .help_inner #myTabContent {
+        margin-top: 30px;
+    }
+    #help .help_inner #myTabContent .tab-pane .help_bottom_left img {
+        max-width: 50%;
+    }
+    #help .help_inner #myTabContent .tab-pane .help_bottom_right h4 {
+        font-size: 25px;
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+    #help .help_inner #myTabContent .tab-pane .help_bottom_right .com_btn {
+        margin-top: 20px;
+    }
+
+    .com_btn {
+        font-size: 10px;
+    }
+    .com_sec_head h6 {
+        font-size: 14px;
+    }
+    .com_sec_head h4 {
+        font-size: 30px;
+    }
+    .com_sec_head a {
+        font-size: 10px;
+        padding: 8px 20px;
+        right: 12px;
+    }
+    
+    #works {
+        padding: 50px 0 26px;
+    }
+    #works .works_inner {
+        margin-top: 40px;
+    }
+    #works .works_inner .work_item{
+        margin-bottom: 24px;
+    }
+    #works .works_inner .work_item .text h5 {
+        font-size: 22px;
+    }
+    #works .works_inner .work_item .text {
+        margin-top: 15px;
+    }
+    #works .works_inner .work_item .text p {
+        font-size: 12px;
+        margin-top: 10px;
+    }
+
+    #pricing {
+        padding: 50px 0;
+    }
+    #pricing .pricing_inner {
+        margin-top: 65px;
+    }
+    #pricing .pricing_inner .membership .membership_head{
+        padding: 0 5px !important;
+        margin-bottom: 20px;
+    }
+    #pricing .pricing_inner .membership .membership_head p {
+        font-size: 10px;
+    }
+    #pricing .pricing_inner .membership .membership_head h6 {
+        font-size: 10px;
+        margin-bottom: 15px;
+    }
+    #pricing .pricing_inner .membership_items h6 {
+        font-size: 10px;
+    }
+    #pricing .pricing_inner .membership_items p {
+        font-size: 10px;
+    }
+    #pricing .pricing_inner .membership_items {
+        padding: 20px 0;
+    }
+    #pricing .pricing_inner .membership_items .check {
+        font-size: 10px;
+    }
+    #pricing .pricing_inner .membership_items .xmark {
+        font-size: 10px;
+    }
+    #pricing .pricing_inner .membership .membership_head::before {
+        height: 485px;
+        right: -2px;
+    }
+    #pricing .pricing_inner .membership_items a {
+        font-size: 10px;
+    }
+    #pricing .pricing_inner .membership_items .membership_btns {
+        padding: 10px 0;
+        z-index: 9;
+    }
+
+    #analytics {
+        padding: 50px 0;
+    }
+    #analytics .analytics_cont {
+        padding: 50px 10px 15px;
+        border-radius: 10px;
+    }
+    #analytics .analytics_cont h2 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    #analytics .analytics_cont p {
+        font-size: 12px;
+        margin-bottom: 30px;
+    }
+    #analytics .analytics_cont .input_area input {
+        height: 40px;
+        padding-left: 20px;
+        font-size: 10px;
+        border-radius: 5px;
+    }
+    #analytics .analytics_cont .input_area {
+        width: 275px;
+    }
+    #analytics .analytics_cont .input_area a {
+        width: 100px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 10px;
+        border-radius: 0 5px 5px 0;
+    }
+
+    #footer {
+        padding: 30px 0 20px;
+    }
+    #footer .footer_left{
+        text-align: center;
+    }
+    #footer .footer_left a img {
+        max-width: 110px;
+    }
+    #footer .footer_left p {
+        font-size: 12px;
+        line-height: 200%;
+    }
+    #footer .footer_right{
+        margin-top: 50px;
+    }
+    #footer .footer_right .footer_menu{
+        margin-bottom: 24px;
+    }
+    #footer .footer_right .footer_menu ul li a {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+    #footer .footer_right .footer_menu h5 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    #footer .footer_bottom {
+        margin-top: 20px;
+    }
+    #footer .footer_bottom ul {
+        justify-content: space-evenly;
+    }
+    #footer .footer_bottom ul li {
+        margin-left: 0;
+    }
+    #footer .footer_bottom ul li a {
+        font-size: 12px;
+    }
+    #footer .footer_bottom p {
+        font-size: 10px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,802 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6,p,span,ul,li{
+    margin: 0;
+    padding: 0;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+ul,li,ol{
+    list-style: none;
+    list-style: none;
+}
+
+.com_btn{
+    padding: 10px 28px;
+    border: 1px solid var(--w);
+    color: var(--w);
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--op);
+    text-transform: capitalize;
+    border-radius: 10px;
+    transition: all linear .3s;
+}
+.com_btn:hover{
+    color: var(--w);
+    background: var(--hover);
+    border-color: var(--hover);
+}
+
+.com_head{
+    text-align: center;
+}
+.com_head h6{
+    color: var(--hover);
+    font-size: 20px;
+    font-weight: 500;
+    font-family: var(--nu);
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+.com_head h3{
+    color: var(--b2);
+    font-size: 44px;
+    font-weight: 600;
+    font-family: var(--pp);
+    text-transform: capitalize;
+    line-height: 140%;
+}
+.com_head p{
+    color: var(--b2);
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--nu);
+    line-height: 200%;
+    margin-top: 40px;
+}
+.com_pera{
+    color: var(--b2);
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--nu);
+    line-height: 200%;
+}
+.com_sec_head{
+    position: relative;
+}
+.com_sec_head h6{
+    color: var(--hover);
+    font-size: 22px;
+    font-weight: 500;
+    font-family: var(--nu);
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+.com_sec_head h4{
+    color: var(--b2);
+    font-size: 48px;
+    font-weight: 600;
+    font-family: var(--pp);
+    text-transform: capitalize;
+}
+.com_sec_head a{
+    color: var(--hover);
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--nu);
+    text-transform: capitalize;
+    padding: 12px 30px;
+    border-radius: 10px;
+    border: 1px solid var(--hover);
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    transition: all linear .3s;
+}
+.com_sec_head a:hover{
+    color: var(--w);
+    background: var(--hover);
+}
+
+:root{
+    /* Fonts */
+    --op: 'Open Sans', sans-serif;
+    --pp: 'Poppins', sans-serif;
+    --nu: 'Nunito', sans-serif;
+    /* Colors */
+    --hover: #6A55EA;
+    --w: #fff;
+    --ow: #C4C4C4;
+    --b: #000;
+    --b2: #29313D;
+    --or: #F8A64C;
+}
+
+/* Common CSS End */
+
+
+
+
+/* ===================================================
+                     Nav CSS Start
+=====================================================*/
+.navbar{
+    padding: 20px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9;
+}
+.navbar #navbarSupportedContent .navbar-nav .nav-item{
+    margin: 0 15px;
+}
+.navbar #navbarSupportedContent .navbar-nav .nav-item .nav-link{
+    color: var(--w);
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--op);
+    text-transform: capitalize;
+    transition: all linear .3s;
+}
+.navbar #navbarSupportedContent .navbar-nav .nav-item .nav-link:hover{
+    color: var(--hover);
+}
+.navbar #navbarSupportedContent .navbar-nav .nav-item .nav-link i{
+    font-size: 12px;
+}
+
+#nav-icon1,
+#nav-icon2,
+#nav-icon3,
+#nav-icon4 {
+  width: 25px;
+  height: 40px;
+  position: relative;
+  transform: rotate(0deg);
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+#nav-icon1 span,
+#nav-icon3 span,
+#nav-icon4 span {
+  display: block;
+  position: absolute;
+  height: 4px;
+  width: 100%;
+  background: #fff;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  transform: rotate(0deg);
+  transition: 0.25s ease-in-out;
+}
+
+#nav-icon1 span:nth-child(1) {
+  top: 10px;
+}
+#nav-icon1 span:nth-child(2) {
+  top: 18px;
+}
+#nav-icon1 span:nth-child(3) {
+  top: 26px;
+}
+
+#nav-icon1.open span:nth-child(1) {
+  top: 18px;
+  transform: rotate(135deg);
+}
+#nav-icon1.open span:nth-child(2) {
+  opacity: 0;
+  left: -60px;
+}
+#nav-icon1.open span:nth-child(3) {
+  top: 18px;
+  transform: rotate(-135deg);
+}
+/* ===================================================
+                     Nav CSS End
+=====================================================*/
+
+/* ===================================================
+                     Banner CSS Start
+=====================================================*/
+#banner{
+    padding: 180px 0 630px;
+    position: relative;
+}
+#banner .rocket{
+    position: absolute;
+    top: -100%;
+    right: 0;
+    transform: translateY(-50%);
+    z-index: 99;
+    max-width: 300px;
+    /* animation: rocket 5s linear; */
+}
+/* @keyframes rocket{
+    0%{
+        position: absolute;
+        top: 90%;
+        right: 0;
+        transform: translateY(-50%);
+    }
+    48%{
+        position: absolute;
+        top: 0%;
+        right: 120%;
+        transform: translateY(-50%);
+    }
+    52%{
+        transform: rotate(100deg);
+    }
+    100%{
+        position: absolute;
+        top: 0%;
+        right: 0;
+        transform: translateY(-50%) rotate(100deg);
+    }
+} */
+#banner .container{
+    position: relative;
+}
+#banner::after{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 600px;
+    background: url(../images/banner_cloud.png) no-repeat center/cover;
+    z-index: 5;
+}
+#banner .banner_text{
+    text-align: center;
+    position: relative;
+}
+#banner .banner_text ul{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+#banner .banner_text ul li{
+    padding: 8px 20px;
+    margin: 0 10px;
+    color: var(--ow);
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--nu);
+    text-transform: uppercase;
+    border: 1px solid var(--ow);
+    border-radius: 10px;
+}
+#banner .banner_text h1{
+    color: var(--w);
+    font-size: 60px;
+    font-weight: 700;
+    font-family: var(--pp);
+    margin-bottom: 35px;
+    text-transform: capitalize;
+}
+#banner .banner_text p{
+    color: var(--ow);
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--nu);
+}
+#banner .banner_text .input_area{
+    width: 600px;
+    background: var(--w);
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 99;
+}
+#banner .banner_text .input_area input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    padding-left: 30px;
+    border-radius: 15px;
+    border: none;
+}
+#banner .banner_text .input_area a{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 60px;
+    background: var(--hover);
+    border-radius: 0 15px 15px 0;
+    color: var(--w);
+    font-style: 18px;
+    font-weight: 500;
+    font-family: var(--nu);
+    line-height: 60px;
+}
+#banner .client_slider{
+    position: absolute;
+    bottom: -550px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9;
+    width: 100%;
+    text-align: center;
+}
+#banner .client_slider .client_slider_item img{
+    max-width: 100%;
+}
+/* ===================================================
+                     Banner CSS End
+=====================================================*/
+
+/* ===================================================
+                  Service CSS Start
+=====================================================*/
+#service{
+    padding: 30px 0 50px;
+}
+#service .service_inner{
+    margin-top: 60px;
+}
+#service .service_inner .service_left ul li{
+    width: 100%;
+}
+#service .service_inner .service_left ul li img{
+    width: 100%;
+    max-width: 100%;
+    margin-top: 50px;
+}
+#service .service_inner .service_right ul li{
+    width: 100%;
+    padding: 30px 50px 30px 170px;
+    background: #6A55EA;
+    border-radius: 10px;
+    margin-bottom: 24px;
+    position: relative;
+}
+#service .service_inner .service_right ul li img{
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    transform: translateY(-50%);
+    max-width: 80px;
+}
+#service .service_inner .service_right ul li h5{
+    color: var(--b2);
+    font-size: 24px;
+    font-weight: 600;
+    font-family: var(--pp);
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+#service .service_inner .service_right ul li p{
+    font-size: 16px;
+    line-height: 22px;
+}
+/* ===================================================
+                  Service CSS End
+=====================================================*/
+
+/* ===================================================
+                  Traffic CSS Start
+=====================================================*/
+#traffic{
+    padding: 100px 0;
+    background: #FDFDFD;
+}
+#traffic .traffic_left .com_head{
+    text-align: left;
+}
+#traffic .traffic_right img{
+    width: 100%;
+    max-width: 100%;
+}
+/* ===================================================
+                  Traffic CSS End
+=====================================================*/
+
+/* ===================================================
+                     Help CSS Start
+=====================================================*/
+#help{
+    padding: 100px 0;
+    background: #F1FBFB;
+}
+#help .one{
+    background: #F0EDFF;
+}
+#help .two{
+    background: #F0EDFF;
+}
+#help .three{
+    background: #E8FCF2;
+}
+#help .four{
+    background: #FEF6EC;
+}
+#help .help_inner{
+    margin-top: 60px;
+}
+#help .help_inner .nav-tabs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-bottom: none;
+}
+#help .help_inner .nav-tabs .nav-item{
+    width: 100%;
+    text-align: center;
+    border-radius: 0;
+}
+#help .help_inner .nav-tabs .nav-item .nav-link{
+    text-align: center;
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    padding: 40px 20px;
+    position: relative;
+    border-radius: 15px;
+}
+#help .help_inner .nav-tabs .nav-item .active{
+    background: var(--or) !important;
+    position: relative;
+}
+#help .help_inner .nav-tabs .nav-item .active::after{
+    position: absolute;
+    content: '';
+    bottom: -70px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-top: 35px solid var(--or);
+    border-bottom: 35px solid transparent;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+}
+#help .help_inner .nav-tabs .nav-item .active h6{
+    color: var(--w) !important;
+}
+#help .help_inner .nav-tabs .nav-item .nav-link img{
+    max-width: 40px;
+    margin-bottom: 20px;
+}
+#help .help_inner .nav-tabs .nav-item .nav-link h6{
+    color: var(--b2);
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--pp);
+    text-transform: capitalize;
+}
+#help .help_inner #myTabContent{
+    margin-top: 80px;
+}
+#help .help_inner #myTabContent .tab-pane .help_bottom_left img{
+    width: 100%;
+    max-width: 80%;
+}
+#help .help_inner #myTabContent .tab-pane .help_bottom_right h4{
+    color: var(--b2);
+    font-size: 36px;
+    font-weight: 600;
+    font-family: var(--pp);
+    margin-bottom: 40px;
+    text-transform: capitalize;
+}
+#help .help_inner #myTabContent .tab-pane .help_bottom_right .com_btn{
+    background: var(--hover);
+    border-color: var(--hover);
+    margin-top: 40px;
+}
+#help .help_inner #myTabContent .tab-pane .help_bottom_right .com_btn:hover{
+    background: transparent;
+    color: var(--hover);
+    border-color: var(--hover);
+}
+/* ===================================================
+                     Help CSS End
+=====================================================*/
+
+/* ===================================================
+                    Works CSS Start
+=====================================================*/
+#works{
+    padding: 100px 0;
+}
+#works .works_inner{
+    margin-top: 60px;
+}
+#works .works_inner .work_item .image img{
+    width: 100%;
+    max-width: 100%;
+}
+#works .works_inner .work_item .text{
+    margin-top: 24px;
+}
+#works .works_inner .work_item .text h5{
+    color: var(--b2);
+    font-size: 28px;
+    font-weight: 500;
+    font-family: var(--pp);
+    text-transform: capitalize;
+}
+#works .works_inner .work_item .text p{
+    color: var(--b2);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--nn);
+    line-height: 200%;
+    margin-top: 15px;
+}
+/* ===================================================
+                    Works CSS End
+=====================================================*/
+
+/* ===================================================
+                  Pricing CSS Start
+=====================================================*/
+#pricing{
+    padding: 100px 0;
+    background: #F1FBFB;
+}
+#pricing .pricing_inner{
+    margin-top: 100px;
+}
+#pricing .pricing_inner .membership .membership_head{
+    position: relative;
+    margin-bottom: 30px;
+}
+#pricing .pricing_inner .membership .membership_head::after{
+    position: absolute;
+    content: '';
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    height: 8px;
+    border-radius: 5px;
+}
+#pricing .pricing_inner .membership .membership_head:first-child:after{
+    background: #D2EAFD;
+}
+#pricing .pricing_inner .membership .membership_head:nth-child(2):after{
+    background: #323232;
+}
+#pricing .pricing_inner .membership .membership_head:nth-child(3):after{
+    background: #43CB83;
+}
+#pricing .pricing_inner .membership .membership_head:nth-child(4):after{
+    background: #845A9F;
+}
+#pricing .pricing_inner .membership .membership_head::before{
+    position: absolute;
+    content: '';
+    top: -30px;
+    right: 0;
+    width: 2px;
+    height: 574px;
+    background: #D7E6F9;
+    z-index: 9;
+}
+#pricing .pricing_inner .membership .membership_head:last-child:before{
+    display: none;
+}
+#pricing .pricing_inner .membership .membership_head h6{
+    color: var(--b2);
+    font-size: 26px;
+    font-weight: 600;
+    font-family: var(--pp);
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#pricing .pricing_inner .membership .membership_head p{
+    color: var(--b2);
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--pp);
+    text-transform: capitalize;
+    text-align: center;
+}
+#pricing .pricing_inner .membership .membership_head p span{
+    font-weight: 700;
+}
+#pricing .pricing_inner .membership_items:nth-child(even){
+    background: #F2F7FA;
+}
+#pricing .pricing_inner .membership_items:nth-child(odd){
+    background: var(--w);
+}
+#pricing .pricing_inner .membership_items:last-child{
+    background: none;
+    padding: 0;
+}
+#pricing .pricing_inner .membership_items{
+    text-align: center;
+    padding: 25px 0;
+    position: relative;
+}
+#pricing .pricing_inner .membership_items h6{
+    color: var(--b2);
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--pp);
+    text-transform: capitalize;
+    text-align: left;
+}
+#pricing .pricing_inner .membership_items p{
+    color: var(--b2);
+    font-size: 14px;
+    font-weight: 500;
+    font-family: var(--pp);
+    text-transform: capitalize;
+    text-align: center;
+}
+#pricing .pricing_inner .membership_items .check{
+    color: #43CB83;
+    font-size: 18px;
+}
+#pricing .pricing_inner .membership_items .xmark{
+    color: #F36F56;
+    font-size: 18px;
+}
+#pricing .pricing_inner .membership_items .membership_btns{
+    padding: 20px 0;
+}
+#pricing .pricing_inner .membership_items .membership_btns:first-child{
+    background: #323232;
+}
+#pricing .pricing_inner .membership_items .membership_btns:nth-child(2){
+    background: #43CB83;
+}
+#pricing .pricing_inner .membership_items .membership_btns:nth-child(3){
+    background: #845A9F;
+}
+#pricing .pricing_inner .membership_items a{
+    color: var(--w);
+    font-size: 14px;
+    font-weight: 500;
+    font-family: var(--pp);
+    text-transform: capitalize;
+    text-align: center;
+}
+/* ===================================================
+                  Pricing CSS End
+=====================================================*/
+
+/* ===================================================
+                 Analytics CSS Start
+=====================================================*/
+#analytics{
+    padding: 100px 0;
+}
+#analytics .analytics_cont{
+    padding: 120px 0;
+    border-radius: 20px;
+    text-align: center;
+}
+#analytics .analytics_cont h2{
+    color: var(--w);
+    font-size: 44px;
+    font-weight: 600;
+    font-family: var(--pp);
+    text-transform: capitalize;
+    margin-bottom: 25px;
+}
+#analytics .analytics_cont p{
+    color: var(--ow);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--nu);
+    text-transform: capitalize;
+    margin-bottom: 50px;
+}
+#analytics .analytics_cont .input_area{
+    width: 600px;
+    background: var(--w);
+    position: relative;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+#analytics .analytics_cont .input_area input{
+    width: 100%;
+    height: 60px;
+    padding-left: 30px;
+    border-radius: 15px;
+    border: none;
+}
+#analytics .analytics_cont .input_area a{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 60px;
+    background: var(--hover);
+    border-radius: 0 15px 15px 0;
+    color: var(--w);
+    font-style: 18px;
+    font-weight: 500;
+    font-family: var(--nu);
+    line-height: 60px;
+}
+/* ===================================================
+                 Analytics CSS End
+=====================================================*/
+
+/* ===================================================
+                     Footer CSS Start
+=====================================================*/
+#footer{
+    padding: 80px 0 50px;
+}
+#footer .footer_left a img{
+    max-width: 150px;
+}
+#footer .footer_left p{
+    color: var(--b2);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--nu);
+    line-height: 180%;
+    margin-top: 30px;
+}
+#footer .footer_right .footer_menu h5{
+    color: var(--b2);
+    font-size: 22px;
+    font-weight: 600;
+    font-family: var(--op);
+    margin-bottom: 30px;
+}
+#footer .footer_right .footer_menu ul li a{
+    color: var(--b2);
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--nu);
+    margin-bottom: 15px;
+    transition: all linear .3s;
+}
+#footer .footer_right .footer_menu ul li a:hover{
+    color: var(--hover);
+}
+#footer .footer_bottom{
+    margin-top: 80px;
+}
+#footer .footer_bottom p{
+    color: var(--b2);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--nu);
+}
+#footer .footer_bottom ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+#footer .footer_bottom ul li{
+    margin-left: 24px;
+}
+#footer .footer_bottom ul li a{
+    color: var(--b2);
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--nu);
+    margin-bottom: 15px;
+    transition: all linear .3s;
+}
+#footer .footer_bottom ul li a:hover{
+    color: var(--hover);
+}
+/* ===================================================
+                     Footer CSS End
+=====================================================*/
